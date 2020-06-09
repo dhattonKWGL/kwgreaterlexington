@@ -3,15 +3,17 @@ html {
   width: 100%;
   text-align: center;
 }
+
 .top {
   height: 550px;
   width: 100%
 }
+
 .heading {
-  
+  opacity: 0.7;
   margin: 0 auto;
   width: 100%;
-  height: 80%;
+  height: 90%;
   background-image: url('https://cdn.glitch.com/06f5d856-6b16-4496-94b4-670d2c95e719%2F01kwfbcvr_1_original.jpg?v=1591286713228');
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
   background-size: cover;
@@ -23,20 +25,18 @@ html {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   border-radius: 10px;
   text-align: center;
-  
   background-color: rgba(255,255,255, .9);
   color: black;
-  
   margin: 0 auto;
-  margin-top: 120px;
+  margin-top: 190px;
   width: 100%;
   max-width: 250px;
-  
   border-style: solid;
   padding: 5px;
   border-color: grey;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .sections {
   margin: 0 auto;
   width: 65%;
@@ -44,12 +44,14 @@ html {
   margin-bottom: 30px;
   margin-top: 30px;
       }
+
       .section-info {
         width: 300px;
         height: 300px;
         display: inline-block;
         margin-top: 30px;
       }
+
       .section-info img {
         border-radius: 50%;
         width: 65%;
@@ -57,9 +59,11 @@ html {
         box-sizing: border-box;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       }
+
 .section-info img:hover {
     border: 2px solid red;
 }
+
       .section-info h2 {
         color: black;
         font-size: 17px;
@@ -71,7 +75,5 @@ html {
           font-family: Arial, Helvetica, sans-serif;
           color: #8b8b8b;
       }
-.chat {
-  
-  padding-right: 200px;
-} 
+
+ 
